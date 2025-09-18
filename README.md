@@ -18,6 +18,7 @@ CSV – for logging events
 
 # 📂 Project Structure
 📁 People-Counter-YOLO
+
  ┣ 📄 person detect.py       # Main script
  ┣ 📄 people.pt               # YOLO trained model (person detection)
  ┣ 📄 ved1.mov                # Input video (your test video)
