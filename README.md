@@ -30,7 +30,7 @@ Log data to CSV file and display results live.
 # ▶️ Usage
 
 Clone the repository
-git clone https://github.com/yourusername/People-Counter-YOLO.git
+git clone (https://github.com/aminrustmani/YOLO-Based-People-Counter-for-Store-Entry-Exit).git
 cd People-Counter-YOLO
 
 Install dependencies
