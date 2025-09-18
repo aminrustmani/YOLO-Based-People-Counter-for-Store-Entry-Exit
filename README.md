@@ -16,31 +16,47 @@ It uses a YOLO model trained on the person class and leverages OpenCV for drawin
 
 # 🛠️ Tech Stack
 Python 3.8+
+
 YOLO (Ultralytics) – for object detection
+
 OpenCV – for video processing and visualization
+
 CSV – for logging events
 
 # ⚙️ How It Works
 
 Load YOLO model (people.pt) trained on person class.
+
 Open video stream (file or webcam).
+
 Draw a virtual line (gate) on the frame.
+
 Track people using YOLO tracking mode.
+
 Detect crossings:
+
 Left → Right ➝ Count as Entry
+
 Right → Left ➝ Count as Exit
+
 Log data to CSV file and display results live.
 
 # ▶️ Usage
 
 Clone the repository
+
 git clone (https://github.com/aminrustmani/YOLO-Based-People-Counter-for-Store-Entry-Exit).git
+
 cd People-Counter-YOLO
 
 Install dependencies
+
 pip install ultralytics opencv-python
+
 Run the script
-python people_counter.py
+
+python person detect.py
+
 Press ESC to stop the video processing.
 
 # 🖼️ Example Output
@@ -54,8 +70,11 @@ Press ESC to stop the video processing.
 
 # 📊 Sample CSV Output
 TrackID	Action	Frame	Time (sec)
+
 1	ENTER	56	1.87
+
 1	EXIT	204	6.80
+
 2	ENTER	290	9.87
 
 # 🎯 Use Cases
