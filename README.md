@@ -5,9 +5,13 @@ It uses a YOLO model trained on the person class and leverages OpenCV for drawin
 
 # 🚀 Features
 ✅ Real-Time Detection & Tracking – Uses YOLO + built-in tracker to maintain unique person IDs.
+
 ✅ Entry & Exit Counting – Counts people crossing a virtual line (gate).
+
 ✅ CSV Logging – Automatically logs TrackID, Action (ENTER/EXIT), Frame, and Time into a CSV file.
+
 ✅ Video Output – Saves processed video with bounding boxes, line, and live counts.
+
 ✅ Frame Skipping – Speeds up video processing by skipping frames for faster results.
 
 # 🛠️ Tech Stack
@@ -41,8 +45,11 @@ Press ESC to stop the video processing.
 
 # 🖼️ Example Output
 ✅ Green Bounding Boxes – Show detected persons
+
 ✅ Red Vertical Line – Represents the counting gate
+
 ✅ Counters – Displayed on top-left (Entered / Exited)
+
 ✅ CSV Log – Stores detailed entry/exit events
 
 # 📊 Sample CSV Output
@@ -53,6 +60,9 @@ TrackID	Action	Frame	Time (sec)
 
 # 🎯 Use Cases
 🏪 Retail Stores – Count customers entering/exiting
+
 🏢 Office Buildings – Monitor employee movement
+
 🎟️ Events – Track attendees in real-time
+
 🏫 Schools – Track students entering/exiting premises
