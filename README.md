@@ -16,16 +16,6 @@ YOLO (Ultralytics) – for object detection
 OpenCV – for video processing and visualization
 CSV – for logging events
 
-# 📂 Project Structure
-📁 People-Counter-YOLO
-
- ┣ 📄 person detect.py       # Main script
- ┣ 📄 people.pt               # YOLO trained model (person detection)
- ┣ 📄 ved1.mov                # Input video (your test video)
- ┣ 📄 output.mp4              # Processed video output
- ┣ 📄 people_log.csv          # CSV log of entries/exits
- ┗ 📄 README.md               # Documentation
-
 # ⚙️ How It Works
 
 Load YOLO model (people.pt) trained on person class.
